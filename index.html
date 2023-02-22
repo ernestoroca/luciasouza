@@ -1,4 +1,5 @@
-<html><head>
+<html>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lucía Souza</title>
@@ -13,6 +14,16 @@
         font-family: 'Almendra', serif;
       }
     </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1004776750"></script>
+    <script> 
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){
+            dataLayer.push(arguments);
+        } 
+        gtag('js', new Date()); 
+        gtag('config', 'AW-1004776750'); 
+    </script>
   </head>
   <body>
   <div class="card">
@@ -23,7 +34,7 @@
   </div>
   <div class="row">
     <div class="col s12 m6">
-      <img class="responsive-img z-depth-4" src="lucida.jpg">
+      <img class="responsive-img z-depth-4" src="lucida.jpeg">
     </div>
     <div class="col s12 m6">
       <div class="card z-depth-4">
@@ -31,13 +42,21 @@
           <h3>Lúcida</h3>
           <h4 class="">En un mundo donde las dificultades no dejan de acosarla, Lucía encuentra un escape hacia otro mundo. El mundo de sus sueños lúcidos, tan real como este del que quiere escapar.</h4>
           <h5 class="">Un viaje de la exploración de un mundo que todos tenemos dentro, pero que muy pocas personas tiene el conocimiento, y la disciplina de conocer. Pero no lo hará sola. Ni lo hará sin la ayuda de una guía muy bien escrita. Pero tendrá que avanzar paso a paso, tal como indica el libro. Y sobre todo, nunca olvidar de leer todas las advertencias. Porque, por más maravilloso que sea este mundo inexplorado, no está libre de dificultades.</h5>
+          <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Librerías</a>
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="https://www.barnesandnoble.com/s/2940044357280">Barnes & Noble</a></li>
+            <li><a href="https://es.scribd.com/book/194942917/Lucida">Scribd</a></li>
+            <li><a href="https://books.apple.com/us/book/lucida/id616124017">Apple</a></li>
+            <li><a href="https://www.kobo.com/ww/en/ebook/lucida">Kobo</a></li>
+            <li><a href="https://www.amazon.com/-/es/Luc%C3%ADa-Souza-ebook/dp/B00AEY93PU">Amazon</a></li>
+          </ul>  
         </div>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col s12 m6">
-      <img class="responsive-img z-depth-4" src="ojosabiertos.jpg">
+      <img class="responsive-img z-depth-4" src="ojosabiertos.jpeg">
     </div>
     <div class="col s12 m6">
       <div class="card z-depth-4">
@@ -45,10 +64,22 @@
           <h3>Ojos abiertos</h3>
           <h4 class="">El atrevimiento de explorar nuevos mundos, de caminar por lugares en los que muy pocos han podido llegar, exige de toda heroína, vencer el más terrible de todos los demonios. Sus propios miedos..</h4>
           <h5 class="">Lucía, atacada por ambos frentes. El mundo externo (o el mundo real, como lo llamarían los no conocedores) y el mundo lúcido se han unido para atacarla de manera despiadada. No hay manera de escapar. Sólo enfrentarse a aquellos que la atacan, pero primero tendrá que vencer a su miedos más profundos. Pero no está tan desvalida. Ya no más. Porque ha logrado obtener poderes asombrosos que le ayudarán, en el mundo real, a vencer a sus demonios. Como toda lucha, el premio es más asombroso de lo imaginado. Y es que, ver lo que hay detrás de las cortinas que llamamos mundo real, es algo que es imposible de expresar. Sólo aquellos que corren las cortinas, lo pueden comprender.</h5>
+          <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Librerías</a>
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="https://www.barnesandnoble.com/s/2940165884139">Barnes & Noble</a></li>
+            <li><a href="https://es.scribd.com/book/582154488/Ojos-abiertos">Scribd</a></li>
+            <li><a href="https://books.apple.com/us/book/ojos-abiertos/id6443152343">Apple</a></li>
+            <li><a href="https://www.kobo.com/ww/en/ebook/ojos-abiertos">Kobo</a></li>
+            <li><a href="https://www.amazon.com/-/es/Luc%C3%ADa-Souza-ebook/dp/B09P7Q4R7Y">Amazon</a></li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
- 
-
-</body></html>
+  <script>
+     document.addEventListener('DOMContentLoaded', function() {
+       M.Dropdown.init(document.querySelectorAll('.dropdown-trigger'));
+     });
+  </script>
+  </body>
+</html>
