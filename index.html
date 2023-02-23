@@ -48,6 +48,9 @@
             <a class="waves-effect waves-light btn" href="https://books.apple.com/us/book/lucida/id616124017" target="_blank">Apple</a>
             <a class="waves-effect waves-light btn" href="https://www.kobo.com/ww/en/ebook/lucida" target="_blank">Kobo</a>
             <a class="waves-effect waves-light btn" href="https://www.amazon.com/-/es/Luc%C3%ADa-Souza-ebook/dp/B00AEY93PU" target="_blank">Amazon</a>
+          </p><br>
+          <p>
+            <img  id="review" class="responsive-img z-depth-4" src="review1.png">
           </p>
         </div>
       </div>
@@ -74,5 +77,17 @@
       </div>
     </div>
   </div>
+  <script>
+    let nro = 0;
+    document.addEventListener('DOMContentLoaded', function() {
+       setInterval(function(){
+         nro++;
+         if(nro>3){
+           nro=0;
+         }
+         document.getElementById("review").src = "review"+nro"+".png";
+       },3000);
+    });
+  </script>
   </body>
 </html>
